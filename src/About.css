@@ -1,0 +1,185 @@
+.about_section {
+    width: 100%;
+    min-height: 190vh;
+    background-color: var(--light2-bg);
+    display: grid;
+    place-items: center;
+    padding-top: 10%;
+}
+
+.about_container {
+    width: 98%;
+}
+
+.about_heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--dark-bg);
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    height: 20vh;
+}
+
+.skills_heading {
+    font-size: 7rem;
+    font-family: var(--normal);
+    transform: scaleY(1.2);
+}
+
+.about_subtext {
+    width: 25%;
+    font-family: var(--normal);
+    line-height: 120%;
+}
+
+.about_circle {
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+.about_circle1 {
+    width: 400px;
+    height: 400px;
+    background-color: var(--dark-bg);
+    left: 30%;
+    top: 50px;
+}
+
+.about_circle2 {
+    width: 350px;
+    height: 350px;
+    background-color: var(--light-bg);
+    left: 40%;
+    top: 50px;
+}
+
+/* SKILLS */
+.skills-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20%;
+    position: relative;
+}
+
+.skill-col {
+    flex: 1;
+}
+
+.skill-number {
+    position: absolute;
+    font-size: 12px;
+    color: var(--red);
+    font-family: var(--normal);
+}
+
+.skill-number1 { left: 0.5%; }
+.skill-number2 { left: 33.5%; }
+.skill-number3 { left: 66.5%; }
+
+.skill-col h2 {
+    font-family: var(--heading);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.skill-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-col li {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    color: var(--dark-bg);
+    font-family: var(--normal);
+}
+
+/* IMAGES */
+.headphone_skill,
+.coffee_skill {
+    width: 250px;
+    position: absolute;
+    will-change: transform, opacity;
+    /* transform: translateZ(0); */
+}
+
+.headphone_skill {
+    left: 13%;
+}
+
+.coffee_skill {
+    left: 80%;
+    transform: rotateY(200deg) !important;
+    margin-top: 2%;
+}
+
+/* JOURNEY */
+.about_journey {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.journey_text {
+    font-family: var(--normal);
+    font-size: 2rem;
+    width: 75%;
+    line-height: 120%;
+}
+
+.journey_img {
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+/* MOBILE */
+@media(max-width: 768px) {
+
+    .about_section {
+        min-height: 100vh;
+    }
+
+    .skills_heading {
+        font-size: 2.5rem;
+    }
+
+    .about_subtext {
+        width: 60%;
+    }
+
+    .about_circle1,
+    .about_circle2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .journey_img,
+    .headphone_skill,
+    .coffee_skill {
+        display: none;
+    }
+
+    .skill-col h2 {
+        font-size: 0.8rem;
+    }
+
+    .skill-col li {
+        font-size: 0.6rem;
+        margin-bottom: 10px;
+    }
+
+    .journey_text {
+        width: 100%;
+        font-size: 1rem;
+    }
+}

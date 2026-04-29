@@ -1,0 +1,142 @@
+.project_section{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    margin-top: 4%;
+}
+.projects-container {
+  width: 100%;
+  transition: background 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  /* overflow: hidden; */
+  color: white;
+}
+
+/* ROW */
+.project-row {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 2fr;
+  align-items: center;
+  padding: 20px 10px;
+  border-top: 1px dashed var(--light2-bg);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+/* HEADER */
+.project-row .header {
+  font-weight: 600;
+}
+
+/* TEXT */
+.project-row span {
+  /* font-family: 'Nohemi', sans-serif; */
+  font-family: var(--heading);
+  font-size: 0.7rem;
+  transition: opacity 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.project-row:hover {
+  border-top: 1px dashed transparent;
+  scale: 1.2;
+}
+
+.project-row:not(.active):hover span {
+  opacity: 0.5;
+}
+
+.project-row.active span {
+  opacity: 1;
+  font-weight: 600;
+}
+
+/* LINK */
+.project-row a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.project-row a:hover {
+  transform: translateX(6px);
+}
+
+/* IMAGE FOLLOW */
+.preview-img {
+  position: fixed;
+  width: 250px;
+  object-fit: contain;
+  pointer-events: none;
+  z-index: 9999;
+  object-position: center;
+  transform: translate(140%, 5%) scale(0.9);
+  opacity: 0;
+  animation: imgFade 0.4s ease forwards;
+  will-change: transform, opacity;
+}
+.project_last{
+  width: 100%;
+  background-color: black;
+  margin-top: 10%;
+}
+.last_text{
+  font-family: var(--heading);
+  font-size: 12rem;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  font-weight: bolder;
+}
+.last_container
+{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+}
+.last_container img{
+  object-fit: contain;
+  position: absolute;
+  transition: 0.5s ease;
+}
+.last_head{
+  right: 0%;
+  /* margin-top: 10%; */
+  width: 400px;
+}
+.last_person{
+  margin-bottom: 28%;
+  width: 380px;
+  /* rotate: 85deg; */
+  left: 5%;
+}
+.last_person:hover
+{
+  filter: contrast(175%) brightness(103%);
+}
+.last_text2{
+  text-align: end;
+}
+/* SMOOTH APPEAR */
+@keyframes imgFade {
+  to {
+    opacity: 1;
+    transform: translate(140%, 5%) scale(1);
+  }
+}
+
+@media(max-width: 768px){
+
+  .preview-img{
+    width: 100px;
+    height: 100px;
+  }
+  .last_text{
+    font-size: 3rem;
+  }
+  .last_container img{
+    width: 100px;
+  }
+}
