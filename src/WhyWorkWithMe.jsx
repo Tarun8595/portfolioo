@@ -90,7 +90,7 @@ const WhyWorkWithMe = () => {
                 </div>
 
                 {/* ROCK IMAGE */}
-                <img src="/public/mountain.png" alt="rock" className="rock" />
+                <img src="mountain.png" alt="rock" className="rock" />
 
             </section>
         </>
