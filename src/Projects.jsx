@@ -8,7 +8,7 @@ const projects = [
         name: "GlowUp",
         tool: "React",
         link: "https://glow-up-ecommerce.onrender.com/",
-        image: "/public/glowup2.png",
+        image: "glowup2.png",
         bg: "#50065b",
     },
     {
@@ -16,7 +16,7 @@ const projects = [
         name: "FasHub",
         tool: "NextJS",
         link: "https://fashub.onrender.com/",
-        image: "/public/fasHub2.png",
+        image: "fasHub2.png",
         bg: "#165713",
     },
     {
@@ -24,7 +24,7 @@ const projects = [
         name: "Kutto",
         tool: "Html, Css",
         link: "https://kutto.onrender.com/index.html",
-        image: "/public/kutto.png",
+        image: "kutto.png",
         bg: "#844f17",
     },
     {
@@ -32,7 +32,7 @@ const projects = [
         name: "CoffeeHub",
         tool: "Bootstrap",
         link: "https://coffeehub-p4ut.onrender.com/index.html",
-        image: "/public/coffeehub.png",
+        image: "coffeehub.png",
         bg: "#862707",
     },
     {
@@ -40,7 +40,7 @@ const projects = [
         name: "Natural Makeup",
         tool: "Html, Css",
         link: "https://h-tarun-c.github.io/Natural-Makeup/",
-        image: "/public/natural.png",
+        image: "natural.png",
         bg: "#200a80",
     },
     {
@@ -48,7 +48,7 @@ const projects = [
         name: "Booth",
         tool: "Bootstrap",
         link: "https://booth-app.onrender.com/index.html",
-        image: "/public/booth.png",
+        image: "booth.png",
         bg: "#065b3d",
     },
     {
@@ -56,7 +56,7 @@ const projects = [
         name: "GYMON",
         tool: "React, Next",
         link: "https://gymon-9k6r.onrender.com/",
-        image: "/public/gymon.png",
+        image: "gymon.png",
         bg: "#4a087c",
     },
     {
@@ -64,7 +64,7 @@ const projects = [
         name: "Hunger Rest",
         tool: "Bootstrap",
         link: "https://hunger-rest.onrender.com/",
-        image: "/public/hunger.png",
+        image: "hunger.png",
         bg: "#076a42",
     },
     {
@@ -72,7 +72,7 @@ const projects = [
         name: "BabyGez",
         tool: "React, Next",
         link: "https://babygen-8y4f.onrender.com/",
-        image: "/public/baby.png",
+        image: "baby.png",
         bg: "#06335b",
     },
     {
@@ -80,7 +80,7 @@ const projects = [
         name: "Porsche Showcase",
         tool: "Html, Css",
         link: "https://porsche-car-website.onrender.com/",
-        image: "/public/porsche.png",
+        image: "porsche.png",
         bg: "#763109",
     },
     {
@@ -88,7 +88,7 @@ const projects = [
         name: "Once Love",
         tool: "React",
         link: "https://once-love.onrender.com/",
-        image: "/public/love.png",
+        image: "love.png",
         bg: "#196e08",
     },
 
@@ -215,10 +215,10 @@ function Projects() {
                 viewport={{ once: true, margin: "-200px" }}>
                 <div className="last_container">
                     <p className="last_text1 last_text">BEYOND <br /> DESIGN</p>
-                    <img className="last_head" src="/public/last_head.png" alt="" />
+                    <img className="last_head" src="last_head.png" alt="" />
                 </div>
                 <div className="last_container">
-                    <img className="last_person" src="/public/fall_men.png" alt="" />
+                    <img className="last_person" src="fall_men.png" alt="" />
                     <p className="last_text2 last_text ">INTO <br /> EXPERIENCE</p>
                 </div>
             </motion.div>
