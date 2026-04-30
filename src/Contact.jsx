@@ -96,7 +96,7 @@ const Contact = ({ contactState, setContactState, SplitText }) => {
                 {/* LEFT TEXT */}
                 <div className="form_left">
                   <h1>
-                    Get<br />In <img src="/public/child_me.png" alt="" /><br />Touch
+                    Get<br />In <img src="child_me.png" alt="" /><br />Touch
                   </h1>
                 </div>
 
