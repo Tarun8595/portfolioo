@@ -4,7 +4,7 @@ import Contact from "./Contact";
 
 // 🎥 VIDEO LIST
 const videos = [
-    "porscheV2.mp4",
+    "/public/porscheV2.mp4",
 ];
 
 function Talk() {
