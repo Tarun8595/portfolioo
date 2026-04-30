@@ -7,17 +7,17 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.config({ force3D: true });
 
 const projects = [
-    "/public/gymon.png",
-    "/public/baby.png",
-    "/public/coffeehub.png",
-    "/public/fasHub2.png",
-    "/public/kutto.png",
-    "/public/porsche.png",
-    "/public/natural.png",
-    "/public/love.png",
-    "/public/hunger.png",
-    "/public/booth.png",
-    "/public/glowup2.png",
+    "gymon.png",
+    "baby.png",
+    "coffeehub.png",
+    "fasHub2.png",
+    "kutto.png",
+    "porsche.png",
+    "natural.png",
+    "love.png",
+    "hunger.png",
+    "booth.png",
+    "glowup2.png",
 ];
 
 function Footer() {
