@@ -96,7 +96,7 @@ function About() {
                     </motion.div>
 
                     <motion.img
-                        src="/headphone.png"
+                        src="headphone.png"
                         alt=""
                         className="headphone_skill"
                         variants={slideLeft}
@@ -127,7 +127,7 @@ function About() {
                     </motion.div>
 
                     <motion.img
-                        src="/coffee.png"
+                        src="coffee.png"
                         alt=""
                         className="coffee_skill"
                         variants={slideRight}
@@ -171,7 +171,7 @@ function About() {
                     </p>
 
                     <motion.img
-                        src="/playground.png"
+                        src="playground.png"
                         alt=""
                         className="journey_img"
                         variants={slideRight}
